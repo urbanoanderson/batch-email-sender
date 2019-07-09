@@ -1,0 +1,9 @@
+{
+    "subject": "My custom email",
+    "body_template": "Hello [0],\n\nI believe you are a great [1] with [2] years old. Come work for my company.\n\nSincerely,\n\nMr. Sender",
+    "recipients": 
+    [
+        {"address": "john@somedomain.com", "template_params": ["John", "Software Engineer", "30"]},
+        {"address": "michael@somedomain.com", "template_params": ["Michael", "Tester", "24"]}
+    ]
+}
